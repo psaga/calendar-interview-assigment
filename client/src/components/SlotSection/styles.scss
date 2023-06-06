@@ -1,0 +1,69 @@
+.slot {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: transparent;
+    border-radius: 5px;
+    
+    .enable-slot {
+        background-color: rgb(255 193 7 / .85);
+        cursor: pointer;
+    }
+
+    .enable-slot:hover {
+        background-color: #ffc107;
+    }
+
+    .disable-slot {
+        background-color: rgb(50 205 50 / .85);
+        cursor: pointer;
+    }
+
+    .disable-slot:hover {
+        background-color: #32cd32;
+    }
+
+    .candidate-slot {
+        background-color: rgb(100 149 237 / .85);
+        cursor: pointer;
+    }
+
+    .candidate-slot:hover {
+        background-color: #6495ed;
+    }
+}
+
+.slot:hover {
+    color:rgba(0, 0, 0, 0.87);
+}
+
+.modal-content {
+
+    button.close {
+        background-color: transparent;
+        border: 0;
+    }
+    
+    .modal-content button.close:hover {
+        opacity: 0.75;
+    }
+
+    .candidate-form .form-group {
+       padding: 5px 0px;
+    }
+
+    .interviewer-radio, .interviewer-name {
+        cursor: pointer;
+    }
+    .interviewer-radio {
+        margin-top: 10px;
+    }
+    .interviewer-name {
+        margin-left: 5px;
+    }
+
+}
+
+
+

@@ -1,0 +1,54 @@
+.week-control-container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 1rem;
+    padding-bottom: 10px;
+
+    .label {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .change-month-icon {
+        padding: 5px;
+        cursor: pointer;
+    }
+    .change-month-icon:hover, .change-month-icon:active {
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.10);
+    }
+}
+.loader-container {
+    bottom: 0;
+    height: 100%;
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    display: flex !important;
+}    
+.today {
+    background-color: rgb(255 255 0 / 0.4);
+}
+.col {
+    padding: 3px !important;
+}
+.schedule {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+    .hour-container {
+        font-size: 14px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+    .slot-column {
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+        height: 40px;
+
+    }
+}
+
